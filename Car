@@ -1,0 +1,36 @@
+package vehicle;
+
+import java.util.Random;
+
+public class Car {
+
+    //Step 5 write the shell code to match the UML Car diagram
+    private static int vehicleCounter = 2000 ;
+    private static String CAR_FACTORY_ID = "NORWOOD";
+    private static String carID;
+    private static String color;
+    private static String factory;
+    private static int numberofDoors;
+    private static double price;
+    private static int mileage;
+    private static String doYouLikeit;
+
+
+    //from class... doesnt work---------------------------------------
+    Random rndGen = new Random();
+    CarID = "VIN" + CAR_FACTORY_ID + "-" + vehicleCounter;
+    vehicleCounter + +;
+    factory = CAR_FACTORY_ID;
+    numberofdoors = 2;
+    color = "Red";
+    mileage = 0;
+        //?price = rndGen.NextInt (max - min) + min;
+    price = rndGen.NextInt (4500 - 3500) + 3500;
+    doYouLikeIt = "Yes";
+
+    public.Car(String color, int numberofDoors);
+
+    }
+
+
+}
