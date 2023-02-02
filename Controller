@@ -1,0 +1,52 @@
+package app;
+
+ import vehicle.Car;
+public class Controller {
+
+// beginning of main(String[] args)) method
+    public static void main(String[] args) {
+
+        youInfoHeader();
+
+        //in class code?
+        Car C1 = new Car();
+        C1.getFactory;
+        C1.displayInfo();
+        Car.classDisplayInfo();
+        Car C2 = newCar("White", 4);
+        C2.displayInfo();
+        Car C3 = newCar("Black", 2, 43540)
+        C3.displayInfo();
+
+    } //end of Main
+
+
+
+    // beginning of yourInfoHeader{} method
+    public static void youInfoHeader (){
+
+        System.out.println("========================================================");
+        System.out.println("PROGRAMMER:   " + "JULIETTE MONTOYA");
+        System.out.println("PANTHER ID:   " + "4199727");
+        System.out.println();
+        System.out.println("CLASS: \t\t COP2210 ");
+        System.out.println("SECTION: \t " + "U01");
+        System.out.println("SEMESTER: \t " + "SPRING 2023");
+        System.out.println("CLASSTIME: \t " + "09:30AM-12:15PM");
+        System.out.println();
+        System.out.println("Assignment:  " + "COP2210_Lab4");
+        System.out.println();
+        System.out.println("CERTIFICATION: \nI understand FIU's academic policies, and I certify");
+        System.out.println("that this work is my own and that non of it is the");
+        System.out.println("work of any other person");
+        System.out.println("========================================================");
+        System.out.println();
+
+
+    }//end yourInfoHeader
+
+
+
+
+
+} // end of Controller
